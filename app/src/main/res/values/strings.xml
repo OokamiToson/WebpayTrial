@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WebpayTrial</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola soy un fragment vacio</string>
+
+    <string-array name="spinner_prices">
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+    </string-array>
+</resources>
