@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements FragmentChanger {
     @Override
     public void goToWebpay(int amount) {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        Fragment fragment = new WebpayFragment();
+        Fragment fragment = new PhpwebFragment();
 
         Bundle args = new Bundle();
         args.putInt("amount", amount);
